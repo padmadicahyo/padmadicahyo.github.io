@@ -122,7 +122,7 @@ https://www.tooplate.com/view/2120-ben-resume
     transform: rotate(-25deg);
   }
   /* button skills */
-  .button-skills {
+  .btn-skills {
     background: rgb(112, 112, 112) ;
     color: rgb(251, 251, 251);
     height: 50px;
@@ -131,8 +131,13 @@ https://www.tooplate.com/view/2120-ben-resume
     margin: 15px;
     border: none;
     border-radius: 1.5rem;
+    transition: all .5s ease;
     /* width: 100px; */
 
+  }
+  .btn-skills:hover {
+    background: rgb(81, 190, 233) ;
+    color: rgb(255, 255, 255);
   }
 
 
@@ -553,7 +558,7 @@ https://www.tooplate.com/view/2120-ben-resume
     display: inline-block;
     color: var(--p-color);
     font-size: var(--h6-font-size);
-    margin: 5px 20px 5px 0;
+    margin: 5px 30px 5px 0;
   }
 
   .social-links a:hover {
